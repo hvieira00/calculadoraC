@@ -22,9 +22,18 @@ void soma()
 void subtrai()
 {
     //todo
+    int num1, num2, result;
+
+    printf("1 numero: ");
+    scanf("%d", &num1);
+    printf("2 numero: ");
+    scanf("%d", &num2);
+
+    result = num1-num2;
+    printf("Resultado = %d \n", result);
     system ("pause");
-    system("cls"); 
-    menu();
+    system("cls");
+    menu();;
 }
 
 void divide()
