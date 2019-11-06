@@ -4,9 +4,19 @@
 void soma()
 { 
     //todo
-    system ("pause"); 
-    system("cls"); 
-    menu(); 
+    int num1, num2, result;
+
+    printf("Primeiro numero: ");
+    scanf("%d", &num1);
+    printf("Segundo numero: ");
+    scanf("%d", &num2);
+
+    result = num1+num2;
+    printf("Resultado = %d \n", result);
+
+    system ("pause");
+    system("cls");
+    menu();
 }
 
 void subtrai()
@@ -20,6 +30,16 @@ void subtrai()
 void divide()
 { 
     //todo
+    int num1, num2, result;
+    
+    printf("Primeiro numero: ");
+    scanf("%d", &num1);
+    printf("Segundo numero: ");
+    scanf("%d", &num2);
+    
+    result = num1/num2;
+    printf("Resultado = %d \n", result);
+    
     system ("pause");
     system("cls");
     menu();
